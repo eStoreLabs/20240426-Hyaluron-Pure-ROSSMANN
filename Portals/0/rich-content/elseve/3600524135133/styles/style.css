@@ -20,7 +20,7 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 959px;
+  max-width: 930px;
   overflow: hidden;
   background: #fff;
 }
@@ -63,10 +63,8 @@ h5 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   opacity: 0;
-  -webkit-animation: slideright 0.8s ease forwards;
-          animation: slideright 0.8s ease forwards;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation: slideright 0.8s ease forwards;
+  animation-delay: 0.9s;
 }
 .es-kv__subtitle {
   margin-bottom: 0;
@@ -75,10 +73,8 @@ h5 {
   font-weight: 300;
   font-size: 20px;
   text-transform: uppercase;
-  -webkit-animation: slideright 0.8s ease forwards;
-          animation: slideright 0.8s ease forwards;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation: slideright 0.8s ease forwards;
+  animation-delay: 0.9s;
 }
 .es-kv__container, .es-kv__wrapper {
   max-width: 100%;
@@ -111,23 +107,18 @@ h5 {
   display: block;
   padding: 16px;
   opacity: 0;
-  -webkit-animation: appear 0.8s ease forwards;
-          animation: appear 0.8s ease forwards;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation: appear 0.8s ease forwards;
+  animation-delay: 0.9s;
 }
 .es-kv__logo {
   margin-bottom: 20px;
   opacity: 0;
-  -webkit-animation: slidedown 0.8s ease forwards;
-          animation: slidedown 0.8s ease forwards;
+  animation: slidedown 0.8s ease forwards;
 }
 .es-kv__brand {
   opacity: 0;
-  -webkit-animation: slidedown 0.8s ease forwards;
-          animation: slidedown 0.8s ease forwards;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation: slidedown 0.8s ease forwards;
+  animation-delay: 0.3s;
 }
 .es-kv__text {
   color: #ffffff;
@@ -138,10 +129,8 @@ h5 {
   text-transform: uppercase;
   letter-spacing: -2px;
   opacity: 0;
-  -webkit-animation: slidedown 0.8s ease forwards;
-          animation: slidedown 0.8s ease forwards;
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation: slidedown 0.8s ease forwards;
+  animation-delay: 0.6s;
 }
 .es-kv__text span {
   font-weight: 700;
@@ -154,13 +143,11 @@ h5 {
   color: #ffffff;
   font-size: 13px;
   opacity: 0.5;
-  max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   text-align: center;
   text-transform: uppercase;
-  -webkit-animation: slidedown 0.8s ease forwards;
-          animation: slidedown 0.8s ease forwards;
+  animation: slidedown 0.8s ease forwards;
 }
 .es-kv__text--2 {
   margin: 0 auto;
@@ -170,12 +157,10 @@ h5 {
   font-size: 13px;
   opacity: 0.5;
   text-transform: uppercase;
-  max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   text-align: center;
-  -webkit-animation: slidedown 0.8s ease forwards;
-          animation: slidedown 0.8s ease forwards;
+  animation: slidedown 0.8s ease forwards;
 }
 .es-kv__disclaimer {
   margin: 0;
@@ -183,10 +168,8 @@ h5 {
   color: #000000;
   font-weight: 300;
   font-size: 10px;
-  -webkit-animation: slideright 0.8s ease forwards;
-          animation: slideright 0.8s ease forwards;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation: slideright 0.8s ease forwards;
+  animation-delay: 0.9s;
 }
 
 .es-benefits {
@@ -824,16 +807,6 @@ h5 {
     max-height: 300px;
   }
 }
-@-webkit-keyframes slidedown {
-  from {
-    opacity: 0;
-    transform: translateY(-32px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 @keyframes slidedown {
   from {
     opacity: 0;
@@ -842,16 +815,6 @@ h5 {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes slideright {
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
 @keyframes slideright {
@@ -864,40 +827,12 @@ h5 {
     transform: translateX(0);
   }
 }
-@-webkit-keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes appear {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotate(0deg) translate(-50%, -50%);
-  }
-  10% {
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-  35% {
-    transform: rotate(-50deg) translate(-50%, -50%);
-  }
-  70% {
-    transform: rotate(90deg) translate(-50%, -50%);
-  }
-  85% {
-    transform: rotate(30deg) translate(-50%, -50%);
-  }
-  100% {
-    transform: rotate(0deg) translate(-50%, -50%);
   }
 }
 @keyframes rotate {
@@ -920,4 +855,3 @@ h5 {
     transform: rotate(0deg) translate(-50%, -50%);
   }
 }
-/*# sourceMappingURL=style.css.map */
