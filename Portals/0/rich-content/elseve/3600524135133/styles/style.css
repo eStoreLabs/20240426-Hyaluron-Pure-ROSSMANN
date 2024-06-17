@@ -341,7 +341,11 @@ h5 {
 }
 
 .es-info__text--2 {
-  top: 7%;
+  width: max-content;
+  transform: translate(0%, -50%);
+  padding-inline: 24px;
+  left: unset;
+  right: 2%;
 }
 
 .es-info__text--span {
